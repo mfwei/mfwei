@@ -27,9 +27,16 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 **Synology (2016–2022), Filesystem R&D**
 
-- Developed Btrfs-based applications (e.g., Snapshot Replication) used in enterprise NAS deployments
-- Designed a petabyte-scale file system for high-density storage systems
-- Built and maintained production storage systems with strong guarantees in reliability and scalability
+- Developed and extended Btrfs with production features (e.g., Snapshot Replication), improving data protection and reliability in enterprise NAS systems
+
+- Contributed to the design and development of a petabyte-scale Btrfs-based storage system for high-density deployments:
+  - Defined system specifications and coordinated development across 15+ R&D teams
+  - Designed system-level validation strategies to identify bottlenecks under extreme workloads (e.g., memory pressure, long-running I/O)
+  - Ensured performance, scalability, and consistency across the storage stack
+
+- Acted as the primary engineering interface between technical support and R&D teams to diagnose and resolve complex production issues
+  - Debugged issues across filesystem, storage, and block layers in production environments
+  - Resolved 78% of filesystem-related cases in 2021, improving system reliability and issue turnaround
 
 ---
 
