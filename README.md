@@ -11,8 +11,12 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 ### Btrfs Optimization for ZNS SSD
 
-- Redesigned and optimized Btrfs to better support zoned namespace SSDs
-- Reduced write amplification and improved system efficiency under zoned constraints
+- Discovered that Btrfs exacerbates performance interference in ZNS SSDs due to proactive zone reclamation
+- Proposed a new space management design to mitigate interference:
+  - Metadata marking for near-term deletion prediction  
+  - Urgency-aware reclamation policy  
+  - Dynamic metadata placement
+- Achieved **22% average** and up to **65%** improvement in sustained-write performance
 - Published at ASP-DAC 2026  
 
 📄 [Zone-aware metadata placement in B-tree filesystem](https://ieeexplore.ieee.org/abstract/document/11420423/)
