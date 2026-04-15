@@ -9,17 +9,16 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 ## 🚀 Selected Work
 
-### Btrfs Optimization for ZNS SSD
+### Btrfs Optimization for ZNS SSD  
+*Zone-aware metadata placement in B-tree filesystem*
 
 - Discovered that Btrfs exacerbates performance interference in ZNS SSDs due to proactive zone reclamation
-- Proposed a new space management design to mitigate interference:
-  - Metadata marking for near-term deletion prediction  
-  - Urgency-aware reclamation policy  
-  - Dynamic metadata placement
+- Proposed a space management design with:
+  metadata marking, space reclamation metric, and dynamic metadata placement
 - Achieved **22% average** and up to **65%** improvement in sustained-write performance
 - Published at [ASP-DAC 2026](https://www.aspdac.com/aspdac2026/)
 
-📄 [Zone-aware metadata placement in B-tree filesystem](https://ieeexplore.ieee.org/abstract/document/11420423/)
+📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
 ---
 
@@ -28,15 +27,9 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 **Synology (2016–2022), Filesystem R&D**
 
 - Developed and extended Btrfs with production features (e.g., Snapshot Replication), improving data protection and reliability in enterprise NAS systems
-
-- Contributed to the design and development of a petabyte-scale Btrfs-based storage system for high-density deployments:
-  - Defined system specifications and coordinated development across 15+ R&D teams
-  - Designed system-level validation strategies to identify bottlenecks under extreme workloads (e.g., memory pressure, long-running I/O)
-  - Ensured performance, scalability, and consistency across the storage stack
-
-- Acted as the primary engineering interface between technical support and R&D teams to diagnose and resolve complex production issues
-  - Debugged issues across filesystem, storage, and block layers in production environments
-  - Resolved 78% of filesystem-related cases in 2021, improving system reliability and issue turnaround
+- Contributed to a petabyte-scale Btrfs-based storage system:
+  defined system specifications, coordinated 15+ R&D teams, and designed validation strategies for extreme workloads
+- Served as the primary RD interface for multiple technical support teams, driving cross-layer debugging (filesystem, storage, block layer) and resolving 78% of filesystem-related production issues in 2021
 
 ---
 
