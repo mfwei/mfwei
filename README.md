@@ -17,7 +17,7 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
   - Urgency-aware reclamation policy  
   - Dynamic metadata placement
 - Achieved **22% average** and up to **65%** improvement in sustained-write performance
-- Published at ASP-DAC 2026  
+- Published at [ASP-DAC 2026](https://www.aspdac.com/aspdac2026/)
 
 📄 [Zone-aware metadata placement in B-tree filesystem](https://ieeexplore.ieee.org/abstract/document/11420423/)
 
