@@ -4,6 +4,8 @@ I build file systems and operating systems for emerging storage devices (e.g., z
 
 My work is motivated by real-world challenges observed in production Btrfs systems, particularly performance interference caused by background space management. I translate these system-level issues into research problems and design practical solutions for modern storage systems.
 
+I focus on how metadata management shapes system behavior, often acting as a hidden source of performance degradation and space inefficiency, and design solutions to mitigate these effects in modern storage systems.
+
 Ph.D. candidate in Computer Science at National Taiwan University.  
 My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
@@ -14,7 +16,7 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 ### Btrfs Optimization for ZNS SSD  
 *Zone-aware metadata placement in B-tree filesystem*
 
-- Motivated by production observations in Btrfs, discovered that proactive zone reclamation exacerbates performance interference in ZNS SSDs
+- Motivated by production observations on metadata and space management in Btrfs, discovered that proactive zone reclamation exacerbates performance interference in ZNS SSDs
 - Proposed a space management design with:
   metadata marking, space reclamation metric, and dynamic metadata placement
 - Achieved **22% average** and up to **65%** improvement in sustained-write performance
@@ -37,7 +39,7 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 ## 🎯 Research Focus
 
+- Metadata management in file systems
 - File systems & storage systems
-- Operating systems
 - Emerging storage technologies (ZNS SSD, SMR)
-- Performance, reliability, and system design trade-offs
+- Performance interference and space efficiency
