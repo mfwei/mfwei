@@ -2,9 +2,9 @@
 
 I build file systems and operating systems for emerging storage devices (e.g., zoned namespace SSDs), with a focus on bridging research and production systems.
 
-My work is motivated by real-world challenges observed in production Btrfs systems, particularly performance interference caused by background space management. I translate these system-level issues into research problems and design practical solutions for modern storage systems.
+My work is motivated by real-world challenges observed in production Btrfs systems, where background space management can introduce significant performance interference. Through these experiences, I became particularly interested in how metadata management shapes system behavior, often acting as a hidden source of performance degradation and space inefficiency.
 
-I focus on how metadata management shapes system behavior, often acting as a hidden source of performance degradation and space inefficiency, and design solutions to mitigate these effects in modern storage systems.
+I translate these system-level insights into research problems and design practical solutions to improve performance and space efficiency in modern storage systems.
 
 Ph.D. candidate in Computer Science at National Taiwan University.  
 My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
