@@ -24,6 +24,8 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
+*(Extended journal version in progress; code will be released upon publication)*
+
 ---
 
 ## 🏢 Industry Experience
