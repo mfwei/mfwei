@@ -43,5 +43,5 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 
 - Metadata management in file systems
 - File systems & storage systems
-- Emerging storage technologies (ZNS SSD, SMR)
+- Emerging storage technologies
 - Performance interference and space efficiency
