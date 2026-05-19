@@ -1,8 +1,8 @@
 ## 👋 About Me
 
-I build file systems and operating systems for emerging storage devices (e.g., zoned namespace SSDs), with a focus on bridging research and production systems.
+**PhD Candidate in Computer Science @ National Taiwan University**
 
-My research is driven by production issues observed in large-scale Btrfs deployments, particularly how metadata and space management interact with performance isolation, space efficiency, and emerging storage devices. I translate these system-level insights into practical storage-system designs.
+Building file systems for emerging storage devices and bridging research with production systems.
 
 ---
 
