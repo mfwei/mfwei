@@ -27,8 +27,7 @@ My research is driven by production issues observed in large-scale Btrfs deploym
 - Proposed dynamic metadata placement and zone-aware reclamation strategies
 - Achieved **22% average** and up to **65%** improvement in sustained-write throughput
 
-📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/)  
-📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
+📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
 *(Extended journal version in progress; code will be released upon publication)*
 
