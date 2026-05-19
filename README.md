@@ -2,27 +2,33 @@
 
 I build file systems and operating systems for emerging storage devices (e.g., zoned namespace SSDs), with a focus on bridging research and production systems.
 
-My work is motivated by real-world challenges observed in production Btrfs systems, where background space management can introduce significant performance interference. Through these experiences, I became particularly interested in how metadata management shapes system behavior, often acting as a hidden source of performance degradation and space inefficiency.
-
-I translate these system-level insights into research problems and design practical solutions to improve performance and space efficiency in modern storage systems.
-
-Ph.D. candidate in Computer Science at National Taiwan University.  
-My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
+My research is driven by production issues observed in large-scale Btrfs deployments, particularly how metadata and space management interact with performance isolation, space efficiency, and emerging storage devices. I translate these system-level insights into practical storage-system designs.
 
 ---
 
-## 🚀 Selected Work
+## 📚 Selected Publications
 
-### Btrfs Optimization for ZNS SSD  
-*Zone-aware metadata placement in B-tree filesystem*
+### ARDA: I/O Scheduler for Heterogeneous Workloads Co-located on Ultra-low-latency SSDs
+**Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
+*RTCSA 2026*
 
-- Motivated by production observations on metadata and space management in Btrfs, discovered that proactive zone reclamation exacerbates performance interference in ZNS SSDs
-- Proposed a space management design with:
-  metadata marking, space reclamation metric, and dynamic metadata placement
-- Achieved **22% average** and up to **65%** improvement in sustained-write performance
-- Published at [ASP-DAC 2026](https://www.aspdac.com/aspdac2026/)
+- Designed an I/O scheduler for heterogeneous workloads on ultra-low-latency SSDs
+- Improved workload isolation and reduced interference under co-located storage workloads
 
-📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
+*(Paper and artifacts will be released after publication)*
+
+---
+
+### Zone-aware metadata placement in B-tree filesystem
+**Ming-Feng Wei**, Yun-Chih Chen, Yuan-Hao Chang, and Tei-Wei Kuo  
+*ASP-DAC 2026*
+
+- Identified metadata-space-management interference in Btrfs on ZNS SSDs
+- Proposed dynamic metadata placement and zone-aware reclamation strategies
+- Achieved **22% average** and up to **65%** improvement in sustained-write throughput
+
+📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/)  
+📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
 *(Extended journal version in progress; code will be released upon publication)*
 
@@ -45,3 +51,5 @@ My recent work on optimizing Btrfs for ZNS SSDs was accepted at ASP-DAC 2026.
 - File systems & storage systems
 - Emerging storage technologies
 - Performance interference and space efficiency
+
+---
