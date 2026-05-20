@@ -2,7 +2,7 @@
 
 **PhD Candidate in Computer Science @ National Taiwan University**
 
-Building file systems for emerging storage devices and bridging research with production systems.
+Building QoS-aware storage systems and file systems for emerging storage devices, with a focus on bridging research prototypes and production systems.
 
 ---
 
@@ -12,8 +12,10 @@ Building file systems for emerging storage devices and bridging research with pr
 **Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
 *[RTCSA 2026](https://rtcsa2026.github.io/)*
 
-- Designed an I/O scheduler for heterogeneous workloads on ultra-low-latency SSDs
-- Improved workload isolation and reduced interference under co-located storage workloads
+- Proposed **ARDA**, an adaptive request dispatching algorithm for QoS-aware I/O scheduling on ultra-low-latency SSDs
+- Dynamically assigns per-workload dispatch budgets to meet latency targets while avoiding hardware-queue overload
+- Reduced average latency by **22.96–42.95%** and maximum latency by **36.26–44.87%** over Kyber under mixed workloads
+- Reduced worst-case latency by up to **59%** over the `none` scheduler under write-saturated conditions
 
 *(Paper and artifacts will be released after publication)*
 
