@@ -20,8 +20,6 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 
 *(Extended journal version in progress; code will be released upon publication)*
 
----
-
 ### ARDA: I/O Scheduler for Heterogeneous Workloads Co-located on Ultra-low-latency SSDs
 **Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
 *[RTCSA 2026](https://rtcsa2026.github.io/)*
