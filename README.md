@@ -12,9 +12,9 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 **Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
 *[RTCSA 2026](https://rtcsa2026.github.io/)*
 
-- Proposed **ARDA**, an adaptive request dispatching algorithm for QoS-aware I/O scheduling on ultra-low-latency SSDs
-- Dynamically assigns per-workload dispatch budgets to meet latency targets while avoiding hardware-queue overload
-- Reduced average latency by **23–43%** and maximum latency by **36–45%** over Kyber under mixed workloads
+- Proposed ARDA, a QoS-aware I/O scheduler for ultra-low-latency SSDs
+- Dynamically adapts request dispatching to balance latency targets and device utilization
+- Reduced average latency by **23–43%** and tail latency by **36–45%** over Kyber under mixed workloads
 
 *(Paper and artifacts will be released after publication)*
 
