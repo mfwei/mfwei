@@ -14,7 +14,7 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 
 - Proposed **ARDA**, an adaptive request dispatching algorithm for QoS-aware I/O scheduling on ultra-low-latency SSDs
 - Dynamically assigns per-workload dispatch budgets to meet latency targets while avoiding hardware-queue overload
-- Reduced average latency by **22.96–42.95%** and maximum latency by **36.26–44.87%** over Kyber under mixed workloads
+- Reduced average latency by **23–43%** and maximum latency by **36–45%** over Kyber under mixed workloads
 - Reduced worst-case latency by up to **59%** over the `none` scheduler under write-saturated conditions
 
 *(Paper and artifacts will be released after publication)*
