@@ -8,18 +8,6 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 
 ## 📚 Selected Publications
 
-### ARDA: I/O Scheduler for Heterogeneous Workloads Co-located on Ultra-low-latency SSDs
-**Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
-*[RTCSA 2026](https://rtcsa2026.github.io/)*
-
-- Proposed ARDA, a QoS-aware I/O scheduler for ultra-low-latency SSDs
-- Dynamically adapts request dispatching to balance latency targets and device utilization
-- Reduced average latency by **23–43%** and tail latency by **36–45%** over Kyber under mixed workloads
-
-*(Paper and artifacts will be released after publication)*
-
----
-
 ### Zone-aware metadata placement in B-tree filesystem
 **Ming-Feng Wei**, Yun-Chih Chen, Yuan-Hao Chang, and Tei-Wei Kuo  
 *[ASP-DAC 2026](https://www.aspdac.com/aspdac2026/)*
@@ -31,6 +19,18 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
 *(Extended journal version in progress; code will be released upon publication)*
+
+---
+
+### ARDA: I/O Scheduler for Heterogeneous Workloads Co-located on Ultra-low-latency SSDs
+**Ming-Feng Wei**, Tzu-Chieh Huang, Chieh-Lin Tsai, Yun-Chih Chen, Tei-Wei Kuo, and Yuan-Hao Chang  
+*[RTCSA 2026](https://rtcsa2026.github.io/)*
+
+- Proposed ARDA, a QoS-aware I/O scheduler for ultra-low-latency SSDs
+- Dynamically adapts request dispatching to balance latency targets and device utilization
+- Reduced average latency by **23–43%** and tail latency by **36–45%** over Kyber under mixed workloads
+
+*(Paper and artifacts will be released after publication)*
 
 ---
 
