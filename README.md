@@ -4,7 +4,7 @@
 
 Building QoS-aware storage systems and file systems for emerging storage devices, with a focus on bridging research prototypes and production systems.
 
-Email: d11922014 at ntu dot edu dot tw.
+**Email:** d11922014 at ntu dot edu dot tw.
 
 ---
 
