@@ -30,7 +30,7 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 - Dynamically adapts request dispatching to balance latency targets and device utilization
 - Reduced average latency by **23–43%** and tail latency by **36–45%** over Kyber under mixed workloads
 
-*(Paper and artifacts will be released after publication)*
+📄 [Paper](https://ieeexplore.ieee.org/document/11662229) 
 
 ---
 
