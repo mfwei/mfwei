@@ -16,7 +16,7 @@ Building QoS-aware storage systems and file systems for emerging storage devices
 
 - Identified metadata-space-management interference in Btrfs on ZNS SSDs
 - Proposed zone-aware metadata placement strategies
-- Achieved **22% average** and up to **65%** improvement in sustained-write throughput
+- Achieved **22% average** and up to **65%** write throughput improvement under high space pressure.
 
 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11420423/) | 📊 [Slides](https://www.aspdac.com/aspdac2026/archive/pdf/9A-5.pdf)
 
